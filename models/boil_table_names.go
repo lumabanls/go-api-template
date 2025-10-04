@@ -3,6 +3,11 @@
 
 package models
 
+type TableName struct {
+	Products string
+}				
+
+
 var TableNames = struct {
 	Products string
 }{
